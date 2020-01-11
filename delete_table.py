@@ -6,4 +6,4 @@ with new_connection() as connection:
         cursor = connection.cursor()
         cursor.execute('DROP TABLE emails')
     except ProgrammingError as e:
-        print(f'ERROR: {e}')
+        print(f'ERROR: {e.msg}')
