@@ -4,6 +4,7 @@ from db import new_connection
 sql = 'SELECT*FROM contatos LIMIT %s OFFSET %s'
 args = (int(input('how many items do you want: ')),
         int(input('set the offset: ')))
+        
 
 with new_connection() as connection:
     try:
