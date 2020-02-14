@@ -1,1 +1,1 @@
-#Python programing DB oriented
+# Python programing DB oriented
